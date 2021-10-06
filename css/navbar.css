@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #286e77;
+}
+
+.logo {
+  max-width: 150px;
+  margin-top: 5px;
+  margin-left: 3rem;
+}
+
+nav ul {
+  padding: 25px;
+  margin-right: 3rem;
+}
+
+nav li {
+  display: block;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  padding: 10px;
+  display: block;
+  font-family: "Roboto";
+}
+
+nav,
+#hamburger-menu {
+  display: none;
+}
+
+.hamburger-label {
+  float: right;
+  color: white;
+  padding: 10px;
+  display: block;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+
+@media (min-width: 730px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    float: left;
+    max-width: 300px;
+    margin-top: 10px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hamburger-label {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 1000px) {
+  nav a {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,41 @@
+* {
+  margin: 0%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+}
+h1 {
+  color: white;
+  word-spacing: 100vw;
+  text-transform: uppercase;
+  font-family: "lato";
+  justify-content: right;
+  font-size: 2rem;
+  margin-top: 3rem;
+  margin-right: 1rem;
+  text-align: right;
+  z-index: 100;
+  position: absolute;
+}
+
+.index {
+  position: relative;
+}
+
+footer {
+  color: #286e77;
+}
+
+@media (min-width: 730px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
