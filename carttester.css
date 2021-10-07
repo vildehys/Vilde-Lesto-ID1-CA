@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  font-family: "lato";
+  color: #093641;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.cart {
+  display: flex;
+}
+
+.products {
+  width: 70%;
+}
+
+.product {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-style: solid;
+  border-color: #e3e3e3;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transform: scale(1.01);
+  margin-bottom: 20px;
+}
+
+.product img {
+  object-fit: cover;
+}
+
+.product-info {
+  padding: 20px;
+  width: 100%;
+  position: relative;
+}
+
+.product-name,
+.product-price {
+  margin-bottom: 20px;
+}
+
+.product-remove {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 25px;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.product-favorite {
+  position: absolute;
+  bottom: 20px;
+  right: 100px;
+  padding: 10px 25px;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.product-remove:hover,
+.product-favorite:hover {
+  border-style: solid;
+  color: red;
+  font-weight: 600;
+}
+
+.product-quantity input {
+  width: 40px;
+  padding: 5px;
+  text-align: center;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.cart-total {
+  flex: 25%;
+  margin-left: 20px;
+  padding: 20px;
+  height: 240px;
+  border-style: solid;
+  border-color: #e3e3e3;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transform: scale(1.01);
+}
+
+.cart-total p {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.cart-total a {
+  display: block;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  background-color: #286e77;
+  color: white;
+  text-decoration: none;
+}
+
+.cart-total a:hover {
+  background-color: red;
+}
+
+@media screen and (max-width: 500px) {
+  .product {
+    height: 150px;
+  }
+  .product img {
+    height: 150px;
+    width: 200px;
+  }
+  .product-name,
+  .product-price {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .cart {
+    flex-direction: column;
+  }
+  .cart-total {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  .product-remove {
+    display: none;
+  }
+  .product-favorite {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .container {
+    max-width: 95%;
+  }
+}

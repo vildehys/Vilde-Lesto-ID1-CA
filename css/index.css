@@ -4,7 +4,6 @@
 img {
   max-width: 100%;
   height: auto;
-  position: absolute;
 }
 h1 {
   color: white;
@@ -17,7 +16,6 @@ h1 {
   margin-right: 1rem;
   text-align: right;
   z-index: 100;
-  position: absolute;
 }
 
 .index {

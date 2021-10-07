@@ -1,18 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 header {
   background-color: #286e77;
 }
-
 .logo {
   max-width: 150px;
   margin-top: 5px;
-  margin-left: 3rem;
+  margin-left: 1rem;
 }
 
 nav ul {
@@ -59,6 +53,7 @@ nav,
     float: left;
     max-width: 300px;
     margin-top: 10px;
+    margin-left: 2rem;
   }
 
   nav {
@@ -82,5 +77,9 @@ nav,
 @media (min-width: 1000px) {
   nav a {
     font-size: 1.5rem;
+  }
+
+  .logo {
+    margin-left: 3rem;
   }
 }

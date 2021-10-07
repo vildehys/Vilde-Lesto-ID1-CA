@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
-img {
-  max-width: 100%;
+* {
+  margin: 0%;
 }
 
 footer {
@@ -14,10 +14,15 @@ h1 {
   margin-top: 25px;
   font-size: 1.3rem;
   margin-left: 25px;
+  text-align: center;
 }
-
+.item-total {
+  display: flex;
+  justify-content: space-between;
+}
 .products {
   background-color: #ffff;
+  margin-top: 3rem;
 }
 
 .female-products {
