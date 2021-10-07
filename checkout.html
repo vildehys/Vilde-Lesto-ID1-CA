@@ -28,8 +28,36 @@
                 </ul>
             </nav>
         </header>
-
-
+        <main class="container">
+            <form id="signUpForm"> 
+                <div class=formContent>
+                <div>
+                    <h1>Full name</h1>
+                    <input name="name" id="name" placeholder="Required">
+                    <div class="errorName" id ="errorName">Please fill inn name</div>
+                </div> 
+                <div>
+                    <h1>Card number</h1>
+                    <input name="cardnumber" id="cardnumber" placeholder="Required">
+                    <div class="errorCard" id ="errorCard">Please fill in card</div>
+                </div> 
+                <div>
+                    <h1>Expiry date</h1>
+                    <input name="date" id="email" placeholder="date">
+                    <div class="errorDate" id ="errorDate">Please fill in expiry date</div>
+                </div> 
+                <div>
+                    <h1>CVC/CVV</h1>
+                    <input name="cvc" id="cvc" placeholder="Required">
+                    <div class="errorCvc" id ="errorCvc">Please fill in CVC</div>
+                </div> 
+                <button>Submit</button>  
+            </div>    
+            <div class="submit-form"></div>
+            </form>
+            <div class="loader loading-indicator"></div>
+        </main>
+<script src="js/form.js"></script>
     </body>
 
 
