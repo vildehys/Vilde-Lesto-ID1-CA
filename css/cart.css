@@ -97,7 +97,7 @@ h6 {
 .product-remove:hover,
 .product-favorite:hover {
   border-style: solid;
-  color: red;
+  color: #bfbd8a;
   font-weight: 600;
 }
 
