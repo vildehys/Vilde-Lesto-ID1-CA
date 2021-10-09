@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainy Days - Home </title>
+    <link rel="icon" href="data:;base64,="/>
+    <link href="css/navbar.css" rel="stylesheet" />
+    <link href="css/form.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/3ddee7a10c.js" crossorigin="anonymous"></script>
+</head>
+    <body>
+        <header>
+            <a href="index.html"><img src="images/logo.png" class="logo"></a>
+            <label class="hamburger-label" for="hamburger-menu"><i class="fas fa fa-bars"></i></i></label>
+            <input type="checkbox" id="hamburger-menu">
+            <nav>
+                <ul class="content">
+                    <li><a href="#">Male</a></li>
+                    <li><a href="female.html">Female</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="cart.html"><i class="fas fa-shopping-bag"></i></a></li>
+                    <li><a href="info.html"><i class="fas fa-question-circle"></i></i></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="container">
+            <form id="contactForm"> 
+                <div class=formContent>
+                    <h2>Leave us a note if you have any questions about our products, our brand, our questions in general.</h2>
+                <div>
+                    <h1>First name</h1>
+                    <input name="firstname" id="firstName" placeholder="Required">
+                    <div class="signUpError" id ="errorFirstName">Name is required</div>
+                </div> 
+                <div>
+                    <h1>Last name</h1>
+                    <input name="lastname" id="lastName" placeholder="Required">
+                    <div class="signUpError" id ="errorLastName">Name is required</div>
+                </div> 
+                <div>
+                    <h1>E-mail</h1>
+                    <input name="email" id="email" placeholder="Email">
+                    <div class="signUpError" id ="errorEmail">E-mail is required</div>
+                </div>
+                <div>
+                    <h1>Subject</h1>
+                    <input name="subject" id="subject" placeholder="Minimum length of 10">
+                    <div class="signUpError" id ="errorSubject">Subject is required</div>
+                </div> 
+                 
+                <div>
+                    <h1>Please enter your... here</h1>
+                    <input name="text" id="text" placeholder="Minimum length of 25">
+                    <div class="signUpError" id ="errorText">Address is required</div>
+                </div> 
+                <button>Submit</button>  
+            </div>    
+            <div class="submit-form"></div>
+            </form>
+            <div class="loader loading-indicator"></div>
+        </main>
+    <script src="js/form.js"></script>
+
+</body>
+
+</html>

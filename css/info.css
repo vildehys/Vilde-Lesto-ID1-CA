@@ -7,14 +7,6 @@
   margin: 0%;
 }
 
-footer {
-  background-color: 286e77;
-  margin-top: 100px;
-  justify-content: center;
-  padding: 30px;
-  text-align: center;
-}
-
 .socials {
   color: white;
   font-size: 25px;
@@ -28,7 +20,7 @@ h6 {
 
 h1 {
   color: #093641;
-  font-family: "lato", sans-serif;
+  font-family: "lato";
   margin-top: 25px;
   font-size: 1.3rem;
   margin-left: 25px;
@@ -47,9 +39,9 @@ h3 {
   color: #093641;
   font-family: "open-sans" sans-serif;
   font-style: italic;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-left: 25px;
-  margin-top: 35px;
+  margin-top: 45px;
 }
 
 h4 {
@@ -57,7 +49,7 @@ h4 {
   font-family: "lato", sans-serif;
   font-size: 0.9rem;
   margin-left: 25px;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 p {
@@ -65,6 +57,13 @@ p {
   font-family: "lato", sans-serif;
   font-size: 0.8rem;
   margin-left: 25px;
+}
+p a {
+  text-decoration: none;
+}
+
+p a:hover {
+  color: #d59f60;
 }
 
 .info {
@@ -78,6 +77,28 @@ p {
 }
 
 @media (min-width: 730px) {
+  h1 {
+    margin-top: 25px;
+    font-size: 1.7rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-right: 40%;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
 }
 
 @media (min-width: 1000px) {

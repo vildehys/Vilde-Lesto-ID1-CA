@@ -7,17 +7,6 @@ body {
   background-image: url(../images/IndexImage.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #286e77;
-}
-
-footer {
-  background-color: #286e77;
-  margin-top: 100px;
-  padding: 30px;
-  text-align: center;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
 
 .socials {
