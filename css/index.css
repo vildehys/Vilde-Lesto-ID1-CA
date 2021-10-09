@@ -1,6 +1,36 @@
 * {
-  margin: 0%;
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  background-image: url(../images/IndexImage.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #286e77;
+}
+
+footer {
+  background-color: #286e77;
+  margin-top: 100px;
+  padding: 30px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.socials {
+  color: white;
+  font-size: 25px;
+}
+
+h6 {
+  color: white;
+  font-size: 10px;
+  font-family: "Montserrat";
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -12,18 +42,9 @@ h1 {
   font-family: "lato";
   justify-content: right;
   font-size: 2rem;
-  margin-top: 3rem;
   margin-right: 1rem;
   text-align: right;
   z-index: 100;
-}
-
-.index {
-  position: relative;
-}
-
-footer {
-  color: #286e77;
 }
 
 @media (min-width: 730px) {

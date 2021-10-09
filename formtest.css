@@ -2,6 +2,7 @@
 
 * {
   font-family: "lato";
+  color: #093641;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,25 +11,6 @@
 h1 {
   margin-left: 35px;
   margin-top: 25px;
-}
-
-footer {
-  background-color: #286e77;
-  margin-top: 100px;
-  justify-content: center;
-  padding: 30px;
-  text-align: center;
-}
-
-.socials {
-  color: white;
-  font-size: 25px;
-}
-
-h6 {
-  color: white;
-  font-size: 10px;
-  font-family: "Montserrat";
 }
 
 /* Cart styling */
@@ -145,7 +127,25 @@ h6 {
   background-color: red;
 }
 
-/* Form styling */
+.containers {
+  width: 60%;
+  text-align: center;
+}
+
+.container-content {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  border-style: solid;
+  border-color: #e3e3e3;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transform: scale(1.01);
+  margin-bottom: 20px;
+}
+
+.form {
+  margin-top: 20px;
+}
 
 @media screen and (max-width: 350px) {
   .product {

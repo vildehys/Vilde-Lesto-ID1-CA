@@ -7,7 +7,7 @@
     <title>Rainy Days - Home </title>
     <link rel="icon" href="data:;base64,="/>
     <link href="css/navbar.css" rel="stylesheet" />
-    <link href="css/cart.css" rel="stylesheet" />
+    <link href="formtest.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/3ddee7a10c.js" crossorigin="anonymous"></script>
 </head>
     <body>
@@ -20,7 +20,11 @@
                     <li><a href="#">Male</a></li>
                     <li><a href="female.html">Female</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="cart.html"> <i class="fas fa-shopping-bag"></i></a></li>
+                </ul>
+                <ul class="socials">
+                    <li><a href="#">Search</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="#">Profile</a></li>
                 </ul>
             </nav>
         </header>
@@ -71,14 +75,37 @@
                     <a href="checkout.html">Proceed to checkout</a>
                 </div>
             </div>
+            <div class="containers">
+                    <div class="shipping-container"></div>
+                        <div class="container-content">
+                            <div class="form">
+                                <label for="cardnumber">Cardnumber</label><br>
+                                <input type="text" id="cardnumber" name="cardnumber"><br>
+                                <label for="cardname">Cardname</label><br>
+                                <input type="text" id="cardname" name="cardname"><br>
+                                <label for="date">Expiry date</label><br>
+                                <input type="text" id="date" name="date"><br>
+                                <label for="cvv">CVV/CVC</label><br>
+                                <input type="text" id="cvv" name="cvv"><br>
+                            </div>
+                        </div>
+                        <div class="payment-container">
+                        <div class="container-content">
+                            <div class="form">
+                                <label for="firstname">Firstname</label><br>
+                                <input type="text" id="firstname" name="firstname"><br>
+                                <label for="lastname">Lastname</label><br>
+                                <input type="text" id="lastname" name="lastname"><br>
+                                <label for="adress">Address</label><br>
+                                <input type="text" id="address" name="address"><br>
+                                <label for="postalcode">Postalcode</label><br>
+                                <input type="text" id="postalcode" name="postalcode"><br>
+                                <label for="city">City</label><br>
+                                <input type="text" id="city" name="city"><br>
+                            </div>
+                            </div>
+                            </div>
                 </body>
-                <footer>
-                    <div class="socials">
-                        <i class="fab fa-facebook-square"></i>
-                        <i class="fab fa-instagram"></i>
-                        <i class="fab fa-twitter-square"></i>
-                        <i class="fas fa-envelope"></i>
-                    </div>
-                    <h6> Copyright @ 2021, RainyDays <br> All rights reserved </h6>
-                </footer>
+
+       
 </html>

@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  margin: 0%;
+}
+
+footer {
+  background-color: #286e77;
+}
+
+h1 {
+  color: #093641;
+  font-family: "lato", sans-serif;
+  margin-top: 25px;
+  font-size: 1.3rem;
+  margin-left: 25px;
+}
+
+.products {
+  background-color: #ffff;
+  margin-top: 3rem;
+}
+
+.female-products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat (2, 300px);
+  grid-gap: 10px;
+  margin-left: 50px;
+}
+
+h2 {
+  font-family: "lato", sans-serif;
+  margin-top: 10px;
+  margin-left: 4px;
+  font-size: 12px;
+  color: #707070;
+}
+
+h3 {
+  font-family: "lato", sans-serif;
+  margin-top: 5px;
+  margin-left: 4px;
+  font-size: 15px;
+  color: #707070;
+}
+
+p {
+  font-family: "lato", sans-serif;
+  margin-top: 10px;
+  margin-left: 4px;
+  margin-bottom: 60px;
+  font-size: 12px;
+  color: #707070;
+}
+
+/* Mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+  .female-products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat (2, 1fr);
+    grid-gap: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 481px) and (max-width: 1024px) {
+  .female-products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat (3, 1fr);
+    grid-gap: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  /* Laptop */
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .female-products {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat (4, 1fr);
+      grid-gap: 70px;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+  }
+}
