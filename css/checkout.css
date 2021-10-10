@@ -3,32 +3,12 @@
 * {
   font-family: "lato";
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
 h1 {
   margin-left: 35px;
   margin-top: 25px;
-}
-
-footer {
-  background-color: #286e77;
-  margin-top: 100px;
-  justify-content: center;
-  padding: 30px;
-  text-align: center;
-}
-
-.socials {
-  color: white;
-  font-size: 25px;
-}
-
-h6 {
-  color: white;
-  font-size: 10px;
-  font-family: "Montserrat";
 }
 
 .container {
@@ -39,6 +19,7 @@ h6 {
 
 .checkout-forms {
   display: flex;
+  justify-content: center;
 }
 
 .checkouts {
@@ -84,7 +65,41 @@ h6 {
   text-align: center;
 }
 
-@media screen and (max-width: 350px) {
+.submit-button {
+  bottom: 20px;
+  right: 100px;
+  padding: 10px 25px;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.submit-button:hover {
+  border-style: solid;
+  background-color: #bfbd8a;
+  font-weight: 600;
+}
+
+footer {
+  background-color: #093641;
+  margin-top: 100px;
+  justify-content: center;
+  padding: 30px;
+  text-align: center;
+}
+
+h6 {
+  color: white;
+  font-size: 10px;
+  font-family: "Montserrat";
+}
+
+.socials {
+  color: white;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 400px) {
   .shipping-form {
     height: 200px;
   }
@@ -97,6 +112,8 @@ h6 {
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
   }
 
   h2 {

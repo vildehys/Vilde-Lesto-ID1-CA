@@ -9,23 +9,10 @@ body {
   background-image: url(../images/about.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #286e77;
-}
-
-.socials {
-  color: white;
-  font-size: 25px;
 }
 
 h1 {
   font-size: 1.3rem;
-  color: #093641;
-}
-
-h6 {
-  color: white;
-  font-size: 10px;
-  font-family: "Montserrat";
   color: #093641;
 }
 
@@ -40,6 +27,25 @@ p {
   margin-left: 20px;
   margin-top: 20px;
   background-color: white;
+}
+
+footer {
+  background-color: #093641;
+  margin-top: 100px;
+  justify-content: center;
+  padding: 30px;
+  text-align: center;
+}
+
+h6 {
+  color: white;
+  font-size: 10px;
+  font-family: "Montserrat";
+}
+
+.socials {
+  color: white;
+  font-size: 25px;
 }
 
 @media (min-width: 550px) and (max-width: 800px) {

@@ -54,6 +54,25 @@ p {
   color: #707070;
 }
 
+footer {
+  background-color: #093641;
+  margin-top: 100px;
+  justify-content: center;
+  padding: 30px;
+  text-align: center;
+}
+
+h6 {
+  color: white;
+  font-size: 10px;
+  font-family: "Montserrat";
+}
+
+.socials {
+  color: white;
+  font-size: 25px;
+}
+
 @media (min-width: 650px) {
   h1 {
     font-size: 2rem;

@@ -7,17 +7,6 @@
   margin: 0%;
 }
 
-.socials {
-  color: white;
-  font-size: 25px;
-}
-
-h6 {
-  color: white;
-  font-size: 10px;
-  font-family: "Montserrat";
-}
-
 h1 {
   color: #093641;
   font-family: "lato";
@@ -101,5 +90,21 @@ p a:hover {
   }
 }
 
-@media (min-width: 1000px) {
+footer {
+  background-color: #093641;
+  margin-top: 100px;
+  justify-content: center;
+  padding: 30px;
+  text-align: center;
+}
+
+h6 {
+  color: white;
+  font-size: 10px;
+  font-family: "Montserrat";
+}
+
+.socials {
+  color: white;
+  font-size: 25px;
 }

@@ -12,19 +12,6 @@ h1 {
   margin-top: 25px;
 }
 
-footer {
-  background-color: #286e77;
-  margin-top: 100px;
-  justify-content: center;
-  padding: 30px;
-  text-align: center;
-}
-
-.socials {
-  color: white;
-  font-size: 25px;
-}
-
 h6 {
   color: white;
   font-size: 10px;
@@ -142,7 +129,21 @@ h6 {
 }
 
 .cart-total a:hover {
-  background-color: red;
+  background-color: #d59f60;
+}
+
+footer {
+  background-color: #093641;
+  margin-top: 100px;
+  justify-content: center;
+  padding: 30px;
+  text-align: center;
+}
+
+h6 {
+  color: white;
+  font-size: 10px;
+  font-family: "Montserrat";
 }
 
 /* Form styling */
@@ -159,6 +160,11 @@ h6 {
   .product-price {
     margin-bottom: 10px;
   }
+}
+
+.socials {
+  color: white;
+  font-size: 25px;
 }
 
 @media screen and (max-width: 600px) {
