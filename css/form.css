@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap");
 
 * {
@@ -7,17 +7,19 @@
   font-family: "lato";
 }
 
-h1 {
+h2 {
   font-size: 1rem;
 }
 
-h2 {
+h1 {
+  font-family: "lato";
   margin-left: 35px;
   margin-top: 25px;
   font-size: 1.3rem;
   justify-content: center;
   text-align: center;
 }
+
 .container {
   display: grid;
   justify-items: center;

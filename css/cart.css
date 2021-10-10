@@ -98,6 +98,8 @@ h6 {
   margin-right: 5px;
 }
 
+/* Total-receipt */
+
 .cart-total {
   flex: 25%;
   margin-left: 20px;
@@ -146,8 +148,6 @@ h6 {
   font-family: "Montserrat";
 }
 
-/* Form styling */
-
 @media screen and (max-width: 350px) {
   .product {
     height: 200px;
@@ -160,11 +160,6 @@ h6 {
   .product-price {
     margin-bottom: 10px;
   }
-}
-
-.socials {
-  color: white;
-  font-size: 25px;
 }
 
 @media screen and (max-width: 600px) {
