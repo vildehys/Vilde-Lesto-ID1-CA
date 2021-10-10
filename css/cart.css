@@ -26,8 +26,6 @@ body {
   min-height: 100vh;
 }
 
-/* Cart styling */
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -130,8 +128,6 @@ body {
   background-color: #bfbd8a;
   font-weight: 600;
 }
-
-/* Total-receipt */
 
 .cart-total {
   color: #093641;

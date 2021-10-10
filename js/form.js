@@ -11,8 +11,7 @@ const email = document.querySelector("#email");
 const errorEmail = document.querySelector("#errorEmail");
 const text = document.querySelector("#text");
 const errorText = document.querySelector("#errorText");
-const success = document.querySelector("success")
-const submitForm = document.querySelector(".submit")
+const submitForm = document.querySelector(".success")
 
 
 
@@ -25,7 +24,7 @@ function contactFormValidation() {
     }
     else {
         errorFirstName.style.display = "block";
-
+        formIsValid = false;
     }
 
     if(checkLength(lastName.value, 0) === true) {
@@ -33,6 +32,7 @@ function contactFormValidation() {
     }
     else {
         errorLastName.style.display = "block";
+        formIsValid = false;
     }
 
     if(checkLength(subject.value, 10) === true) {
@@ -40,6 +40,7 @@ function contactFormValidation() {
     }
     else {
         errorSubject.style.display = "block";
+        formIsValid = false;
     }
 
     if(checkLength(text.value, 24) === true){
@@ -47,6 +48,7 @@ function contactFormValidation() {
     }
     else {
         errorText.style.display = "block";
+        formIsValid = false;
     }
 
     if(emailValidation(email.value)) {
@@ -54,12 +56,13 @@ function contactFormValidation() {
     }
     else {
         errorEmail.style.display = "block";
-
+        formIsValid = false;
     }
 
     if (formIsValid === true) {
         submitForm.innerHTML = "<h3>Thank you for contacting RainyDays.</h3>";
   }
+
 
         
     

@@ -17,9 +17,10 @@ h2 {
   font-size: 1.1rem;
 }
 
-.submit {
-  color: red;
-  height: 3rem;
+.success {
+  margin-top: 10px;
+  color: #286e77;
+  height: 5rem;
 }
 
 .container {
