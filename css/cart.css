@@ -10,12 +10,20 @@
 h1 {
   margin-left: 35px;
   margin-top: 25px;
+  color: #093641;
 }
 
 h6 {
   color: white;
   font-size: 10px;
   font-family: "Montserrat";
+  color: #093641;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
 }
 
 /* Cart styling */
@@ -24,6 +32,7 @@ h6 {
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 25px;
+  color: #093641;
 }
 
 .cart {
@@ -92,15 +101,40 @@ h6 {
   width: 40px;
   padding: 5px;
   text-align: center;
+  color: #093641;
 }
 
 .fa {
   margin-right: 5px;
 }
 
+.buttons {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  color: #093641;
+  bottom: 20px;
+  right: 100px;
+  padding: 10px 25px;
+  background-color: #e3e3e3;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #bfbd8a;
+  font-weight: 600;
+}
+
 /* Total-receipt */
 
 .cart-total {
+  color: #093641;
   flex: 25%;
   margin-left: 20px;
   padding: 20px;
@@ -109,7 +143,6 @@ h6 {
   border-color: #e3e3e3;
   border-radius: 5px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  transform: scale(1.01);
 }
 
 .cart-total p {
@@ -119,27 +152,13 @@ h6 {
   font-size: 20px;
 }
 
-.cart-total a {
-  display: block;
-  text-align: center;
-  height: 40px;
-  line-height: 40px;
-  background-color: #286e77;
-  color: white;
-  text-decoration: none;
-  margin-bottom: 10px;
-}
-
-.cart-total a:hover {
-  background-color: #d59f60;
-}
-
 footer {
   background-color: #093641;
   margin-top: 100px;
   justify-content: center;
   padding: 30px;
   text-align: center;
+  color: white;
 }
 
 h6 {

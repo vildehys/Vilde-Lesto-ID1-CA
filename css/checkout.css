@@ -70,17 +70,19 @@ h1 {
   justify-content: center;
 }
 
-.submit-button {
+.button1 {
   bottom: 20px;
   right: 100px;
   padding: 10px 25px;
-  background-color: white;
+  background-color: #e3e3e3;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   border-radius: 5px;
+  text-decoration: none;
+  color: #093641;
 }
 
-.submit-button:hover {
-  border-style: solid;
+.button1:hover {
   background-color: #bfbd8a;
   font-weight: 600;
 }

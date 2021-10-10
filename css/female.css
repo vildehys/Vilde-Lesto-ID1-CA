@@ -54,6 +54,23 @@ p {
   color: #707070;
 }
 
+.button {
+  font-family: "lato";
+  bottom: 20px;
+  right: 100px;
+  padding: 10px 25px;
+  background-color: #e3e3e3;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  text-decoration: none;
+  color: #093641;
+}
+
+.button:hover {
+  background-color: #bfbd8a;
+  font-weight: 600;
+}
+
 footer {
   background-color: #093641;
   margin-top: 100px;
@@ -73,7 +90,7 @@ h6 {
   font-size: 25px;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 430px) and (max-width: 850px) {
   h1 {
     font-size: 2rem;
     text-align: left;

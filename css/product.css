@@ -66,9 +66,11 @@
 
 .buttons {
   margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.cart-button {
+.button {
   bottom: 20px;
   right: 100px;
   padding: 10px 25px;
@@ -80,20 +82,7 @@
   color: #093641;
 }
 
-.favorite-button {
-  bottom: 20px;
-  right: 100px;
-  padding: 10px 25px;
-  background-color: white;
-  cursor: pointer;
-  border-radius: 5px;
-  border-style: solid;
-  border-color: ;
-}
-
-.favorite-button:hover,
-.cart-button:hover {
-  border-style: solid;
+.button:hover {
   background-color: #bfbd8a;
   font-weight: 600;
 }

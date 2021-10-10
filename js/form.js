@@ -11,6 +11,7 @@ const email = document.querySelector("#email");
 const errorEmail = document.querySelector("#errorEmail");
 const text = document.querySelector("#text");
 const errorText = document.querySelector("#errorText");
+const success = document.querySelector("success")
 const submitForm = document.querySelector("submit-form")
 
 
@@ -31,7 +32,6 @@ function contactFormValidation() {
     }
     else {
         errorLastName.style.display = "block";
-
     }
 
     if(checkLength(subject.value, 24) === true) {
@@ -39,16 +39,13 @@ function contactFormValidation() {
     }
     else {
         errorSubject.style.display = "block";
-
     }
-
 
     if(checkLength(text.value, 24) === true){
         errorText.style.display = "none";
     }
     else {
         errorText.style.display = "block";
-
     }
 
     if(emailValidation(email.value)) {
@@ -58,8 +55,9 @@ function contactFormValidation() {
         errorEmail.style.display = "block";
 
     }
+ 
 
-    //console.log("check");
+        
     
 }
 
@@ -80,10 +78,5 @@ function checkLength(value, len) {
     }
 }
 
-// function submitForm() {
-    // submitForm.innerHTML = "Your form has successfully been submitted. Thank you for your request."
-// }
-
-// setTimeout(submitForm, 2500);
-
 contactForm.addEventListener("submit", contactFormValidation);
+
