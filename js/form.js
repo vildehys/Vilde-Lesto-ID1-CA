@@ -12,11 +12,12 @@ const errorEmail = document.querySelector("#errorEmail");
 const text = document.querySelector("#text");
 const errorText = document.querySelector("#errorText");
 const success = document.querySelector("success")
-const submitForm = document.querySelector("submit-form")
+const submitForm = document.querySelector(".submit")
 
 
 
 function contactFormValidation() {
+    let formIsValid = true;
     event.preventDefault()
 
     if(checkLength(firstName.value, 0) === true) {
@@ -34,7 +35,7 @@ function contactFormValidation() {
         errorLastName.style.display = "block";
     }
 
-    if(checkLength(subject.value, 24) === true) {
+    if(checkLength(subject.value, 10) === true) {
         errorSubject.style.display = "none";
     }
     else {
@@ -55,7 +56,10 @@ function contactFormValidation() {
         errorEmail.style.display = "block";
 
     }
- 
+
+    if (formIsValid === true) {
+        submitForm.innerHTML = "<h3>Thank you for contacting RainyDays.</h3>";
+  }
 
         
     

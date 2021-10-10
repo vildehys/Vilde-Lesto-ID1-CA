@@ -17,15 +17,9 @@ h2 {
   font-size: 1.1rem;
 }
 
-.success {
-  border-radius: 10px;
-  display: none;
-  background-color: #78c84f;
-  padding: 10px;
-  font-size: 14pt;
-  text-align: center;
-  margin: 25px 25px 0 25px;
-  padding: 10px 10px 10px 10px;
+.submit {
+  color: red;
+  height: 3rem;
 }
 
 .container {
