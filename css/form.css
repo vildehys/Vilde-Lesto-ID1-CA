@@ -6,6 +6,12 @@
   font-family: lato;
 }
 
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
 h1 {
   margin-left: 35px;
   margin-top: 25px;

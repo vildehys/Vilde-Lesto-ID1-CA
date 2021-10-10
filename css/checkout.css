@@ -108,11 +108,11 @@ h6 {
 
 @media screen and (max-width: 400px) {
   .shipping-form {
-    height: 200px;
+    height: 230px;
   }
 
   .payment-form {
-    height: 200px;
+    height: 230px;
   }
 }
 
@@ -128,12 +128,10 @@ h6 {
   }
   .shipping-form {
     height: 280px;
-    width: 325px;
   }
 
   .payment-form {
     height: 280px;
-    width: 325px;
   }
 }
 
