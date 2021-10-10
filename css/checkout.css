@@ -65,6 +65,11 @@ h1 {
   text-align: center;
 }
 
+.button {
+  display: flex;
+  justify-content: center;
+}
+
 .submit-button {
   bottom: 20px;
   right: 100px;

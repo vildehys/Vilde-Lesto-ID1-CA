@@ -9,6 +9,9 @@ body {
   background-image: url(../images/about.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
 }
 
 h1 {
